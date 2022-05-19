@@ -1,5 +1,5 @@
 import { DataTypes, Model } from 'sequelize';
-import db from '.';
+import db from '../models';
 
 class TaskModel extends Model {
   public id: number;
